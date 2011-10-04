@@ -1,5 +1,5 @@
 #Run Redis as Service on Windows#
-Redis is one of the fastest and most feature-rich in-memory key value data stores to come from the NoSQL movement.
+[Redis](http://redis.io/) is one of the fastest and most feature-rich in-memory key value data stores to come from the NoSQL movement.
 
 If you run Redis on Windows machine, the best option is to run each Redis instance as Windows service. This project helps you to do that. It was tested with [Redis binaries](https://github.com/dmajkic/redis/downloads).
 
