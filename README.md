@@ -4,7 +4,7 @@ Redis is one of the fastest and most feature-rich in-memory key value data store
 If you run Redis on Windows machine, the best option is to run each Redis instance as Windows service. This project helps you to do that. It was tested with [Redis binaries](https://github.com/dmajkic/redis/downloads).
 
 ##Install service##
-To install Redis as service, just compile project sources and execute:
+To install Redis as service, just compile project sources, **put it in the same folder with "redis-server" and "redis-cli" executables** and then execute:
 
     sc create %name% binpath= "\"%binpath%\" %configpath%" start= "auto" DisplayName= "Redis"
 
