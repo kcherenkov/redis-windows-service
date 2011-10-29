@@ -54,8 +54,11 @@ namespace RedisService
 
             if (configPath != null)
             {
-                pi.Arguments = configPath;
                 FindPort(configPath);
+                
+                // Workaround for spaces in configuration filename.
+                pi.Arguments = Path.GetFileName(configPath);
+                pi.WorkingDirectory = Path.GetDirectoryName(configPath);
             }
 
             using (var process = new Process { StartInfo = pi })
