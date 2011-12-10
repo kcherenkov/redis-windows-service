@@ -3,7 +3,7 @@
 
 If you run Redis on Windows machine, the best option is to run each Redis instance as Windows service. This project helps you to do that. It was tested with [Redis binaries](https://github.com/dmajkic/redis/downloads).
 
-[Compiled executable](https://github.com/downloads/kcherenkov/redis-windows-service/RedisService.exe).
+[Compiled executable](https://github.com/kcherenkov/redis-windows-service/downloads).
 
 ##Install service##
 To install Redis as service, just compile project sources, **put it in the same folder with "redis-server" and "redis-cli" executables** and then execute:
